@@ -4,6 +4,32 @@ Projeto final da disciplina de **Programação de Computadores**. Este sistema p
 
 ---
 
+## Curso
+**Análise e Desenvolvimento de Sistemas**
+
+---
+
+## 👥 Participantes
+- **Pedro Henrique Farias da Silva** 
+- **Yuri Henrique Valadares**
+- **Samuel Cavalcante da Silva Calvão**
+- **Jean Salton**
+- **Diego Santana**
+  
+---
+
+## 📚 Fundamentação Teórica e Referências
+
+O projeto foi desenvolvido com base em conceitos apresentados em aula e aprofundado por meio da documentação oficial do Django e de bibliografia complementar:
+
+- [Django Models](https://docs.djangoproject.com/en/5.1/topics/db/models/)
+- [Django Templates](https://docs.djangoproject.com/en/5.2/topics/templates/)
+- [Template Language](https://docs.djangoproject.com/en/5.2/ref/templates/language/)
+- [Template Tags e Filters](https://docs.djangoproject.com/en/5.2/ref/templates/builtins/)
+- **Livro: Lógica de Programação e Algoritmos** – livro que eu utilizei em casa antes mesmo de iniciar o curso.
+
+  ---
+
 ## 📌 Objetivo
 Demonstrar o uso de:
 - lógica de programação,
@@ -44,15 +70,6 @@ Muitos sistemas escolares não possuem uma forma simples de organizar cursos, al
 
 ---
 
-## 👥 Participantes
-- **Pedro Henrique Farias da Silva** 
-- **Yuri Henrique Valadares**
-- **Samuel Cavalcante da Silva Calvão**
-- **Jean Salton**
-- **Diego Santana**
-
----
-
 ## ✅ Funcionalidades
 - Cadastro e listagem de **cursos**
 - Cadastro e listagem de **alunos**
@@ -60,6 +77,16 @@ Muitos sistemas escolares não possuem uma forma simples de organizar cursos, al
 - Visualização de detalhes e formulários de edição
 - Validações via formulário
 - Organização com views baseadas em função
+
+---
+
+## 🔚 Conclusão e Possíveis Melhorias
+
+Este projeto permitiu consolidar na prática os principais conceitos estudados na disciplina de Programação de Computadores, como lógica condicional, estruturas de repetição, modularização com funções, manipulação de dados e uso de frameworks. Os testes automatizados ajudaram a garantir o funcionamento correto do sistema.
+
+Como melhorias futuras, o sistema poderia incluir autenticação de usuários (login/senha), painel administrativo com permissões e a adição de filtros ou buscas inteligentes nos registros.
+
+A experiência com o GitHub também fortaleceu o trabalho em equipe, versionamento e documentação do projeto.
 
 ---
 
@@ -74,25 +101,3 @@ O projeto inclui testes nos modelos que têm uso direto nos templates:
 ```bash
 Ran 3 tests in 0.004s
 OK
-
----
-
-## 🔚 Conclusão e Possíveis Melhorias
-
-Este projeto permitiu consolidar na prática os principais conceitos estudados na disciplina de Programação de Computadores, como lógica condicional, estruturas de repetição, modularização com funções, manipulação de dados e uso de frameworks. Os testes automatizados ajudaram a garantir o funcionamento correto do sistema.
-
-Como melhorias futuras, o sistema poderia incluir autenticação de usuários (login/senha), painel administrativo com permissões e a adição de filtros ou buscas inteligentes nos registros.
-
-A experiência com o GitHub também fortaleceu o trabalho em equipe, versionamento e documentação do projeto.
-
----
-
-## 📚 Fundamentação Teórica e Referências
-
-O projeto foi desenvolvido com base em conceitos apresentados em aula e aprofundado por meio da documentação oficial do Django e de bibliografia complementar:
-
-- [Django Models](https://docs.djangoproject.com/en/5.1/topics/db/models/)
-- [Django Templates](https://docs.djangoproject.com/en/5.2/topics/templates/)
-- [Template Language](https://docs.djangoproject.com/en/5.2/ref/templates/language/)
-- [Template Tags e Filters](https://docs.djangoproject.com/en/5.2/ref/templates/builtins/)
-- **Livro: Lógica de Programação e Algoritmos** – livro que eu utilizei em casa antes mesmo de iniciar o curso.
