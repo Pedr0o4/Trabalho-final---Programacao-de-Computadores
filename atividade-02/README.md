@@ -9,10 +9,16 @@ Análise e Desenvolvimento de Sistemas
 - Yuri Henrique  
 - Samuel Cavalcante  
 - Diego Santana
-
+  
 ---
 
+## 📚 Referências  
+- *Livro de Algoritmo e Lógica de Programação*  
+- *Curso de Hack Ético*  
+- *Python Para Hackers*
 ## 🧠 Resumo da Atividade
+
+---
 
 Esta atividade propõe uma análise crítica do filme **"Hacker — Todo Crime Tem um Início"**, relacionando os eventos retratados à ética na área de Tecnologia da Informação e à **LGPD** (Lei Geral de Proteção de Dados). Também foram desenvolvidos dois algoritmos com foco em segurança da informação:
 
