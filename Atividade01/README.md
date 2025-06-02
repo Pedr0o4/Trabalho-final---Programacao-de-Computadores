@@ -7,10 +7,10 @@ Análise e Desenvolvimento de Sistemas
 
 👥 Participantes
 
-**Pedro Henrique Farias da Silva**
-**Jean Salton**
-**Yuri Henrique**
-**Samuel Cavalcante**
+**Pedro Henrique Farias da Silva,**
+**Jean Salton,**
+**Yuri Henrique,**
+**Samuel Cavalcante,**
 **Diego Santana**
 
 ## 🧠 Conteúdo Abordado
