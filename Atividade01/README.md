@@ -6,6 +6,7 @@ Este material é parte da disciplina de **Programação de Computadores**, abord
 Análise e Desenvolvimento de Sistemas
 
 👥 Participantes
+
 Pedro Henrique Farias da Silva
 Jean Salton
 Yuri Henrique
