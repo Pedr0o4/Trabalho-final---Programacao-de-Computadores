@@ -2,6 +2,16 @@
 
 Este material é parte da disciplina de **Programação de Computadores**, abordando os conceitos fundamentais da lógica de programação utilizando a linguagem C++.
 
+🎓 Curso
+Análise e Desenvolvimento de Sistemas
+
+👥 Participantes
+Pedro Henrique Farias da Silva
+Jean Salton
+Yuri Henrique
+Samuel Cavalcante
+Diego Santana
+
 ## 🧠 Conteúdo Abordado
 
 - O que são algoritmos e como eles estão presentes no nosso dia a dia
