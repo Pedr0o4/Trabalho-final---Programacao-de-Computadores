@@ -1,27 +1,30 @@
-# 🧾 Trabalho Final — Programação de Computadores
+# 💻 Atividade 03 — Programação de Computadores
 
-Repositório destinado ao projeto final da disciplina de **Programação de Computadores**, do curso de **Análise e Desenvolvimento de Sistemas**.
+Este documento refere-se à terceira atividade prática da disciplina de Programação de Computadores, do curso de **Análise e Desenvolvimento de Sistemas.
+
+## 🎯 Objetivo
+
+Desenvolver e aprimorar a lógica de programação utilizando a linguagem Python, por meio de exercícios propostos em ambiente de notebook. A atividade reforça conceitos de entrada e saída de dados, operadores matemáticos e manipulação de variáveis.
 
 ## 👥 Participantes
 
 - Pedro Henrique Farias da Silva  
-- Jean Salton  
 - Yuri Henrique Valadares  
 - Samuel Cavalcante da Silva Calvão  
+- Jean Salton  
 - Diego Santana
 
-## 📂 Estrutura do Repositório
+## 🧠 Conteúdos Trabalhados
 
-- `Atividade01/` — Introdução à Lógica de Programação em C++
-- `atividade-02/` — Análise crítica do filme "Hacker — Todo Crime Tem um Início" e algoritmos de segurança
-- `Atividade-03/` — Exercícios práticos de lógica de programação em Python
-- `Projeto Final/` — Desenvolvimento de um sistema completo integrando os conceitos aprendidos
+- Variáveis e tipos de dados
+- Entrada com input()
+- Saída com print()
+- Operações aritméticas básicas
+- Lógica sequencial
 
-## 📚 Referências
+--- 
 
-- *Livro de Algoritmo e Lógica de Programação*
-- *Curso de Hack Ético*
-- *Python Para Hackers*
-- *Introdução à Programação com Python – 4ª Edição: Algoritmos e lógica de programação para iniciantes*
+## 📚 Referência  
+- Introdução à Programação com Python – 4ª Edição: Algoritmos e lógica de programação para iniciantes
 
 ---
