@@ -1,0 +1,36 @@
+{% extends "meu_app/base.html" %}
+
+{% block title %}Início{% endblock %}
+
+{% block content %}
+<h1>Bem-vindo à Plataforma de Cursos</h1>
+<p>Explore nossos cursos abaixo.</p>
+
+<a href="{% url 'listar_cursos' %}" class="btn btn-primary mb-3">Ver Cursos</a>
+<a href="{% url 'matricula_geral' %}" class="btn btn-success mb-3 ms-2">Fazer Matrícula</a>
+<a href="{% url 'listar_alunos' %}" class="btn btn-info mb-3 ms-2">Ver Alunos</a>  
+
+<h3>Simulação de While:</h3>
+<ul>
+  {% for i in contador %}
+    <li>Repetição {{ i }}</li>
+  {% endfor %}
+</ul>
+
+<hr class="my-4">
+<h3>Deixe sua Avaliação</h3>
+<form method="post" class="row g-3">
+  {% csrf_token %}
+  <div class="col-md-6">
+    {{ avaliacao_form.nota.label_tag }}
+    {{ avaliacao_form.nota }}
+  </div>
+  <div class="col-md-6">
+    {{ avaliacao_form.comentario.label_tag }}
+    {{ avaliacao_form.comentario }}
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-warning">Enviar Avaliação</button>
+  </div>
+</form>
+{% endblock %}

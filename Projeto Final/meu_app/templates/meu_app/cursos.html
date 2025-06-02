@@ -1,0 +1,72 @@
+{% extends "meu_app/base.html" %}
+
+{% block title %}Lista de Cursos{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+  <h2>Cursos Disponíveis (Total: {{ cursos|length }})</h2>
+
+  <ul class="list-group mb-4">
+    {% for curso in cursos %}
+      <li class="list-group-item">
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <a href="{% url 'detalhar_curso' curso.id %}">
+              <strong>{{ curso.titulo|upper }}</strong>
+            </a>
+            <p class="mb-1">{{ curso.descricao|truncatechars:60 }}</p>
+            <small class="text-muted">Criado em: {{ curso.criado_em|date:"d/m/Y" }}</small>
+          </div>
+          <div class="text-end">
+            <!-- AÇÕES FBV COM ESTILO SÓLIDO -->
+            <div class="mb-2">
+              <a href="{% url 'curso_detalhar_fbv' curso.pk %}" class="btn btn-primary btn-sm me-1 mb-1">
+                📄 Detalhar FBV
+              </a>
+              <a href="{% url 'curso_editar_fbv' curso.pk %}" class="btn btn-warning btn-sm me-1 mb-1">
+                ✏️ Editar FBV
+              </a>
+              <a href="{% url 'curso_deletar_fbv' curso.pk %}" class="btn btn-danger btn-sm mb-1">
+                🗑️ Deletar FBV
+              </a>
+            </div>
+
+            <!-- AÇÕES CBV COM ESTILO DE CONTORNO -->
+            <div>
+              <a href="{% url 'curso_detalhar_cbv' curso.pk %}" class="btn btn-outline-primary btn-sm me-1 mb-1">
+                📄 Detalhar CBV
+              </a>
+              <a href="{% url 'curso_editar_cbv' curso.pk %}" class="btn btn-outline-warning btn-sm me-1 mb-1">
+                ✏️ Editar CBV
+              </a>
+              <a href="{% url 'curso_deletar_cbv' curso.pk %}" class="btn btn-outline-danger btn-sm mb-1">
+                🗑️ Deletar CBV
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+    {% empty %}
+      <li class="list-group-item">Nenhum curso disponível.</li>
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <h3>Cadastrar Novo Curso</h3>
+  <form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+      {{ form.as_p }}
+    </div>
+    <button type="submit" class="btn btn-success">Salvar Curso</button>
+  </form>
+
+  <hr>
+
+  <p>
+    Ou utilize:
+    <a href="{% url 'curso_criar_cbv' %}" class="btn btn-secondary btn-sm">Formulário CBV</a>
+  </p>
+</div>
+{% endblock %}

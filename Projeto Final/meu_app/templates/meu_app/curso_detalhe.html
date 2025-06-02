@@ -1,0 +1,26 @@
+{% extends "meu_app/base.html" %}
+
+{% block title %}Detalhes do Curso{% endblock %}
+
+{% block content %}
+<h2>{{ curso.titulo }}</h2>
+<p>{{ curso.descricao }}</p>
+
+{% if curso.instrutor %}
+    <p><strong>Instrutor:</strong> {{ curso.instrutor.nome }}</p>
+{% else %}
+    <p><strong>Instrutor:</strong> Não definido</p>
+{% endif %}
+
+{% if curso.categoria %}
+    <p><strong>Categoria:</strong> {{ curso.categoria.nome }}</p>
+{% else %}
+    <p><strong>Categoria:</strong> Não definida</p>
+{% endif %}
+
+{% if curso.descricao|length < 30 %}
+    <p><em>Este curso ainda não tem uma descrição completa.</em></p>
+{% endif %}
+
+<a href="{% url 'matricular' curso.id %}" class="btn btn-success">Matricular-se</a>
+{% endblock %}

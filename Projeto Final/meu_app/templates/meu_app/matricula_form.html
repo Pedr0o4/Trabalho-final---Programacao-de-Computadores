@@ -1,0 +1,25 @@
+{% extends "meu_app/base.html" %}
+
+{% block title %}Matrícula Geral{% endblock %}
+
+{% block content %}
+<h2>Fazer Matrícula</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" class="btn btn-success">Salvar Matrícula</button>
+</form>
+
+<hr>
+<h3>Matrículas Registradas:</h3>
+<ul class="list-group">
+  {% for m in matriculas %}
+    <li class="list-group-item">
+      {{ m.aluno.nome }} - {{ m.curso.titulo }}
+
+    </li>
+  {% empty %}
+    <li class="list-group-item">Nenhuma matrícula cadastrada.</li>
+  {% endfor %}
+</ul>
+{% endblock %}

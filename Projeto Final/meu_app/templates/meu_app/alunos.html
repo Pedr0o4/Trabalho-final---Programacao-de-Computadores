@@ -1,0 +1,24 @@
+{% extends "meu_app/base.html" %}
+
+{% block title %}Alunos{% endblock %}
+
+{% block content %}
+<h2>Lista de Alunos</h2>
+
+<ul class="list-group mb-4">
+  {% for aluno in alunos %}
+    <li class="list-group-item">
+      {{ aluno.nome }} - {{ aluno.email }} - {{ aluno.data_nascimento }}
+    </li>
+  {% empty %}
+    <li class="list-group-item">Nenhum aluno cadastrado.</li>
+  {% endfor %}
+</ul>
+
+<h3>Cadastrar Novo Aluno</h3>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" class="btn btn-success">Salvar</button>
+</form>
+{% endblock %}
