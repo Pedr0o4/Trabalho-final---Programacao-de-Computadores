@@ -30,5 +30,6 @@ Apresentar os primeiros passos na lógica de programação com foco em leitura, 
 ## 📚 Referências
 
 - Livro: *Algoritmos e Lógica de Programação*
-- C - Fundamentos para lógica de programação
+- Curso: *C - Fundamentos para lógica de programação*
+- Livro: *INTRODUÇÃO A PROGRAMAÇÃO EM C++*
 
