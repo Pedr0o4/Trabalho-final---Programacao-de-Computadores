@@ -16,10 +16,6 @@ Este material é parte da disciplina de **Programação de Computadores**, abord
 
 Apresentar os primeiros passos na lógica de programação com foco em leitura, escrita, estruturas condicionais e organização de algoritmos.
 
-## 📄 Arquivo
-
-- [`INTRODUÇÃO A LÓGICA DE PROGRAMAÇÃO EM C++.pdf`](./INTRODUÇÃO%20A%20LÓGICA%20DE%20PROGRAMAÇÃO%20EM%20C++%20(2).pdf)
-
 ## 📚 Referências
 
 - Livro: *Algoritmos e Lógica de Programação*
