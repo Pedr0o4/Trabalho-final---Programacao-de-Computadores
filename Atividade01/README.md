@@ -11,7 +11,7 @@ Análise e Desenvolvimento de Sistemas
 **Jean Salton,**
 **Yuri Henrique,**
 **Samuel Cavalcante,**
-**Diego Santana**
+**Diego Santana** 
 
 ## 🧠 Conteúdo Abordado
 
@@ -31,5 +31,5 @@ Apresentar os primeiros passos na lógica de programação com foco em leitura, 
 
 - Livro: *Algoritmos e Lógica de Programação*
 - Curso: *C - Fundamentos para lógica de programação*
-- Livro: *INTRODUÇÃO A PROGRAMAÇÃO EM C++*
+- Livro: *Introdução a Programação em C++*
 
